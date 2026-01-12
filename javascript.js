@@ -1,0 +1,88 @@
+let index = 0;
+const carolseu = document.querySelector('.viwe');
+const cards=document.querySelectorAll('.p')
+const total= cards.length
+const bntl =document.querySelector('.left');
+const bntr =document.querySelector('.right');
+
+bntl.style.display = 'none';  
+
+
+const cardWidth = 28.7; // vw
+const visibleCards = Math.floor(100 / cardWidth);
+const maxIndex = total - visibleCards;
+
+function updateCarousel() {
+  carolseu.style.transform = `translateX(-${index * cardWidth}vw)`;
+}
+
+
+function right() {
+  if (index < maxIndex) {
+    index++;
+    updateCarousel();
+  }
+  if (index>0) {
+    bntl.style.display = 'flex';  
+}
+    if(index==maxIndex) {
+    bntr.style.display = 'none';  
+}
+}
+
+function left() {
+  if (index > 0) {
+    index--;
+    updateCarousel();
+  }
+  if (index==0) {
+    bntl.style.display = 'none'; 
+  }
+  if(index<maxIndex) {
+    bntr.style.display = 'flex'; 
+  }
+}
+
+
+
+let index1 =0;
+const carolseu1 = document.querySelector('.viwe1');
+const cards1=document.querySelectorAll('.p1');
+const total1=cards1.length;
+const bntl1 =document.querySelector('.left1');
+const bntr1 =document.querySelector('.right1');
+
+bntl1.style.display='none';
+
+const visivelcard = Math.floor(100/29.6);
+const maxindex1 = total1 - visivelcard;
+
+function updatecarolseu1 () {
+    carolseu1.style.transform=`translateX(-${index1 * 28.7}vw)`;
+}
+
+function right1 () {
+    if (index1<maxindex1) {
+        index1++;
+        updatecarolseu1();
+    }
+    if (index1>0) {
+    bntl1.style.display = 'flex';  
+}
+    if (index1==maxindex1) {
+      bntr1.style.display='none';
+    }
+}
+
+function left1 () {
+    if(index1>0) {
+        index1--;
+        updatecarolseu1 ();
+    }
+    if (index1==0) {
+    bntl1.style.display = 'none';  
+}
+    if (index1<maxindex1){
+      bntr1.style.display='flex';
+    }
+}
