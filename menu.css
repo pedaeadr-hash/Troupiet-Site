@@ -1,0 +1,92 @@
+.menu {
+    padding: 2vw;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: -300vw;
+    width: 350px;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    z-index: 9999;
+    transition: right 0.5s ease-in-out;
+}
+.ativom {
+    transition: right 0.5s ease-in-out;
+    right: 0;
+}
+.listm {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+  gap: 1vw;  
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 25vw;
+}
+.listm li {
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+    transition: color 0.5s ease-in-out;
+}
+.listm li:hover {
+    color: rgb(153, 153, 153);
+}
+.close {
+    display: flex;
+    margin-bottom: 4vw;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.logo1 {
+    
+    display: flex;
+    background-color: rgba(245, 245, 220, 0);
+    margin-top: 5vw;
+    width: 80%;
+    height: 20%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.ft {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ft img{
+  width: 20%;
+  animation: girar 5s linear infinite;
+}
+@keyframes girar {
+  0% {
+    transform: rotate(0deg) scale(0.9);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(360deg) scale(0.9);
+  }
+}
+.over {
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    z-index: 9998;
+    background-color: rgba(0, 0, 0, 0.603);
+    opacity: 1;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    opacity: 0;
+}
+.overy {
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+}
+

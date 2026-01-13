@@ -1,11 +1,27 @@
 header {
+    height: 70px;
     width: 100%;
-    padding: 20px 8%;
+    padding: 0 8%;
     background-color: #0e0e0e;
     color: #eaeaea;
-    
+    align-items: center;
+    display: flex;
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 header img {
     width: 30px;
    

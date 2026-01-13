@@ -86,3 +86,37 @@ function left1 () {
       bntr1.style.display='flex';
     }
 }
+
+
+
+
+
+function chamarm () {
+  document.querySelector('.menu').classList.add('ativom');
+  document.body.style.overflow='hidden';
+  document.querySelector('.over').classList.add('overy');
+}
+function closem () {
+  document.querySelector('.menu').classList.remove('ativom');
+  document.body.style.overflow='';
+  document.querySelector('.over').classList.remove('overy');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
