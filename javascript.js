@@ -105,6 +105,36 @@ function closem () {
 
 
 
+let num = 0;
+const carrosel = document.querySelector('.carrosel');
+const tot = document.querySelectorAll('.mkt').length;
+
+function dar() {
+  if (num < tot - 1) {
+    num++;
+    carrosel.style.transform = `translateX(-${num * 100}%)`;
+  }
+}
+
+function vim() {
+  if (num > 0) {
+    num--;
+    carrosel.style.transform = `translateX(-${num * 100}%)`;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
