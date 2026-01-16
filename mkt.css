@@ -1,111 +1,69 @@
 .mkt-conteiner {
-    background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 80vw;
-    max-height: 900px;
-    min-height: 250px;
-    background-color: rgba(255, 0, 0, 0);
-    overflow-y: hidden;
-    overflow-x: hidden;
-    list-style: none;
-    margin-bottom: 1.5vw;
+    height: 50vw;
+    display: flex;
     position: relative;
-    display: flex;
-    
-}
-.carrosel {
-  display: flex;
-  width: 200%;
-  transition: transform 0.6s ease;
-}
-.mkt {
-    width: 100%;
-    flex-shrink: 0;
-}
-.setas {
-    
-    bottom: 0px;
-    z-index: 9000;
-    bottom: 0px;
-    width: 100%;
-    height: 8vw;
-    background: linear-gradient(to bottom, transparent, #0e0e0ece);
-    display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2vw;
+}
+.btnmk {
+    z-index: 2000;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8vw;
+    background-color: black;
     position: absolute;
-}
-.lef {
+    display: flex;
+    bottom: 0px;
     
-    width: 4vw;
-    height: 3vw;
-    background-color: rgba(255, 255, 255, 0);
-    
+    background: linear-gradient(to bottom, transparent, #0e0e0ec5);   
 }
-.lef img{
+.esq {
     cursor: pointer;
-    transition: transform 0.5s ease-in-out;
-    width: 4vw;
-    height: 2.5vw;
-    
+    left: 40vw;
+    position: absolute;
+    bottom: 1vw;
+    width: 2vw;
+    transition: transform 1s ease-in-out;
 }
-.lef img:hover{
+.dir {cursor: pointer;
+    right: 40vw;
+    position: absolute;
+    bottom: 1vw;
+    width: 2vw;
+    transition: transform 1s ease-in-out;
+}
+.esq:hover,
+.dir:hover {
     transform: scale(1.1);
 }
-.rig {
-    width: 4vw;
-    height: 3vw;
-    background-color: rgba(0, 0, 255, 0);
-    
-}
-.rig img {
-    cursor: pointer;
-    width: 4vw;
-    height: 2.5vw;
-    transition: transform 0.5s ease-in-out;
-}
-.rig img:hover{
-    transform: scale(1.1);
-}
-
-.mkt img {
-    
-    overflow-y: hidden;
-    overflow-x: hidden;
+.carro {
+    align-items: center;
     width: 100%;
     height: 100%;
-    display: block;
-    cursor: pointer;
-    transition: transform 0.8s ease-in-out;
+    display: flex;
+    background-color: aqua;
+     transition: transform 0.6s ease-in-out;
+    
 }
-.mkt img:hover {
+.imgmk {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+}
+.imgmk img{
+    transition: transform 2s ease-in-out;
+    cursor: pointer;
+    
+    width: 100%;
+    height: 100%;
+}
+.imgmk img:hover {
     transform: scale(1.1);
 }
-
-
-
-
-@media (max-height: 800px) {
-    .mkt-conteiner {
-        height: 75vh;
-    }
-}
-@media (max-height: 750px) {
-    .mkt-conteiner {
-        height: 75vh;
-        object-fit: cover;
-
-    }
-}
-@media screen and  (max-height:779px){
-        .mkt-conteiner{
-            margin-bottom:0px;
-        }
-    }
-    @media screen and  (max-height:500px){
-        .mkt-conteiner{
-            height:80vw;
-        }
-    }
-    

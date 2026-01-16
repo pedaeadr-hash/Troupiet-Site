@@ -105,24 +105,20 @@ function closem () {
 
 
 
-let num = 0;
-const carrosel = document.querySelector('.carrosel');
-const tot = document.querySelectorAll('.mkt').length;
+let nu=0;
+const carrosel=document.querySelector('.carro')
 
-function dar() {
-  if (num < tot - 1) {
-    num++;
-    carrosel.style.transform = `translateX(-${num * 100}%)`;
-  }
+
+function av (){
+  if (nu<1){
+  nu++;
+  carrosel.style.transform=`translateX(${-nu*100}%)`}
 }
-
-function vim() {
-  if (num > 0) {
-    num--;
-    carrosel.style.transform = `translateX(-${num * 100}%)`;
-  }
+function vo(){
+  if(nu>0){
+  nu--;
+  carrosel.style.transform=`translateX(${-nu*100}%)`}
 }
-
 
 
 
