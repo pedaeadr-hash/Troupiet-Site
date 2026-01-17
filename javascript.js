@@ -123,6 +123,30 @@ function vo(){
 
 
 
+let posmb=0;
+const carrinho=document.querySelector('.carro');
+
+
+
+function avmb () {
+  if(posmb<1){
+    posmb++;
+    carrinho.style.transform=`translateX(${-posmb *100}%)`
+  }
+}
+
+function volmb () {
+  if(posmb>0){
+    posmb--;
+    carrinho.style.transform=`translateX(${-posmb *100}%)`
+  }
+}
+
+
+
+
+
+
 
 
 
