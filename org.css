@@ -40,3 +40,23 @@
     align-items: center;
     color: rgb(255, 255, 255);
 }
+
+
+@media screen and (max-width: 1050px){
+    .org {
+        height: 5vw;
+    }
+    .inf {
+        width: 70vw;
+        font-size: 0.6vw;
+    }
+    .creater {
+        width: 30vw;
+        font-size: 0.6vw;
+    }
+    .fim {
+        height: 5vw;
+        font-size: 0.6vw;
+    }
+
+}

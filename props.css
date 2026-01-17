@@ -48,3 +48,10 @@ position: absolute;
     color: rgb(255, 255, 255);
     transform: scale(1.1);
 }
+
+@media screen and (max-width:1025px) {
+    .btn {
+        width: 40%;
+        font-size: 1.5vw;
+    }
+}

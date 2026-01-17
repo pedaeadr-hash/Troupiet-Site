@@ -18,3 +18,12 @@
     height: auto;
     cursor: pointer;
 }
+@media screen and (max-width:1050px){
+    .insta {
+        height: 5vw;
+        
+    }
+    .insta img {
+        width: 3vw;
+    }
+}

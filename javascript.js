@@ -107,17 +107,32 @@ function closem () {
 
 let nu=0;
 const carrosel=document.querySelector('.carro')
+const bolls1 = document.querySelector('.b1')
+const bolls2 = document.querySelector('.b2') 
 
+if (nu===0) {
+  bolls1.classList.add('bactive');
+}
 
 function av (){
   if (nu<1){
   nu++;
-  carrosel.style.transform=`translateX(${-nu*100}%)`}
+  carrosel.style.transform=`translateX(${-nu*100}%)`
+  if (nu===1){
+    bolls1.classList.remove('bactive');
+    bolls2.classList.add('bactive');
+  }
+}
 }
 function vo(){
   if(nu>0){
   nu--;
-  carrosel.style.transform=`translateX(${-nu*100}%)`}
+  carrosel.style.transform=`translateX(${-nu*100}%)` 
+  if(nu===0) {
+    bolls2.classList.remove('bactive');
+    bolls1.classList.add('bactive');
+  }
+}
 }
 
 
@@ -128,17 +143,30 @@ const carrinho=document.querySelector('.carro');
 
 
 
+
+
 function avmb () {
   if(posmb<1){
     posmb++;
     carrinho.style.transform=`translateX(${-posmb *100}%)`
+    if (posmb===1){
+    bolls1.classList.remove('bactive');
+    bolls2.classList.add('bactive');
   }
+    
+  }
+  
+
 }
 
 function volmb () {
   if(posmb>0){
     posmb--;
     carrinho.style.transform=`translateX(${-posmb *100}%)`
+    if(posmb===0) {
+    bolls2.classList.remove('bactive');
+    bolls1.classList.add('bactive');
+  }
   }
 }
 
