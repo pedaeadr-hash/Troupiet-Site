@@ -1,3 +1,6 @@
+.mobile {
+    display: none;
+}
 .titlemb { 
     padding-right: 2px;
     padding-left: 2px;
@@ -136,3 +139,148 @@
 }
 
 
+
+
+.amostrasmb {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    position: relative;
+    width: 100%;
+    height: 110vw;
+    background-color: #00000071;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnesqmb {
+    z-index: 1000;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(to left, transparent, #0e0e0ec5);  
+
+}
+.btndirmb {
+    z-index: 1000;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+     background: linear-gradient(to right, transparent, #0e0e0ec5);  
+
+}
+.btnesqmb img {
+    cursor: pointer;
+    width: 100%;
+}
+.btndirmb img {
+    cursor: pointer;
+    width: 100%;
+}
+
+
+
+
+
+.carroselmb {
+    transition: transform 0.4s ease-in-out;
+    width: 70%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+
+.ftmb {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.ftmb img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.instamb {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 14vw;
+    display: flex;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+.instamb img {
+    height: 50%;
+}
+.orgmb {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 11vw;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    align-items: center;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.copmb {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid white;
+    font-size: 1.4vw;
+    color: white;
+}
+.creatermb {
+
+    display: flex;
+    width: 40%;
+    height: 100%;
+    font-size: 1.4vw;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.cookiesmb {
+    width: 100%;
+    height: 15vw;
+    font-size: 1.4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom:1px solid white ;
+    color: white;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+@media screen and (max-width:1000px){
+    .mobile {
+        display: block;
+    }
+}

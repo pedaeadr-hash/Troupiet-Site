@@ -174,6 +174,25 @@ function volmb () {
 
 
 
+let indexmb=0;
+const carruselmb =document.querySelector('.carroselmb');
+
+
+
+function avamb1 () {
+  if  (indexmb<1) {
+    indexmb++;
+    carruselmb.style.transform=`translateX(${-indexmb * 100}%)`
+  }
+}
+
+function volmb1 () {
+  if (indexmb>-1) {
+    indexmb--;
+    carruselmb.style.transform=`translateX(${-indexmb * 100}%)`
+  }
+}
+
 
 
 
