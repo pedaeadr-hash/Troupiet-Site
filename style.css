@@ -5,7 +5,7 @@
 }
 
 body {
-  
+    overflow: hidden;
     background-color: #000000;
     color: #eaeaea;
     font-style: normal;
@@ -15,9 +15,13 @@ body {
     color: #000000;
     min-height: 100vh;
     overflow-x: hidden;
+     overflow-x: hidden;
+  max-width: 100%;
 }
 html {
   scroll-behavior: smooth;
+   overflow-x: hidden;
+  max-width: 100%;
 }
 
 
