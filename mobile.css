@@ -58,7 +58,7 @@
 .seasonmb {
     width: 100%;
     height: 10vw;
-    font-size: 2vw;
+    font-size: 3vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,8 +142,6 @@
 
 
 .amostrasmb {
-    margin-top: 5vw;
-    margin-bottom: 5vw;
     position: relative;
     width: 100%;
     height: 110vw;

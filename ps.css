@@ -65,7 +65,10 @@
     font-size: 0.8vw;   top: 0.5vw; left: 1vw; position: absolute; font-style: normal; letter-spacing: 1px;
 }
 .ll {
-    width: 1.1vw; height: 1.1vw;top: 0.5vw; right: 1vw; position: absolute;cursor: pointer;
+    width: 1.1vw; height: 1.1vw;top: 0.5vw; right: 1vw; position: absolute;cursor: pointer;transition: transform 0.5s ease-in-out;
+}
+.ll:hover {
+    transform: scale(1.1);
 }
 .din {
     position: absolute;
