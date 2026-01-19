@@ -1,4 +1,5 @@
 .mkt-conteiner {
+    overflow: hidden;
     width: 100%;
     height: 45vw;
     display: flex;
