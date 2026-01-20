@@ -46,10 +46,12 @@
     overflow: hidden;
     background-color: #000000;
     color: #eaeaea;
+    -webkit-tap-highlight-color: #00000000;
 }
 .search-icon img {
     width: 40%;
     height: 40%;
+    -webkit-tap-highlight-color: #00000000;
 }
 @media screen and  (max-width:800px){
     .search-bar  {

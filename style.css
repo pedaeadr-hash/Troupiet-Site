@@ -2,6 +2,7 @@
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
   margin: 0;
+  -webkit-tap-highlight-color: #00000000;
 }
 
 body {

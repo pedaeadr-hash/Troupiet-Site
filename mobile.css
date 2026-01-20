@@ -152,6 +152,10 @@
     justify-content: center;
 }
 .btnesqmb {
+    user-select: none;
+    border: none;
+    outline: none;
+    background: none;
     z-index: 1000;
     position: absolute;
     display: flex;
@@ -165,6 +169,10 @@
 
 }
 .btndirmb {
+    user-select: none;
+    border: none;
+    outline: none;
+    background: none;
     z-index: 1000;
     position: absolute;
     display: flex;
@@ -177,13 +185,13 @@
      background: linear-gradient(to right, transparent, #0e0e0ec5);  
 
 }
-.btnesqmb img {
+.btndirmb svg{
     cursor: pointer;
-    width: 100%;
+    -webkit-tap-highlight-color: #00000000;
 }
-.btndirmb img {
+.btnesqmb svg{
     cursor: pointer;
-    width: 100%;
+    -webkit-tap-highlight-color: #00000000;
 }
 
 
@@ -231,9 +239,18 @@
     border-bottom: 1px solid white;
     border-top: 1px solid white;
 }
-.instamb img {
-    height: 50%;
+.instamb a {
+    display: inline-flex;       /* faz o link ser flex e poder alinhar filho */
+    align-items: center;
+    justify-content: center;
+    height: 100%;               /* ocupa toda altura do container */
+    width: auto;                /* largura mínima para o conteúdo */
 }
+.instamb img {
+    height: 50%;                /* mantém a imagem com 50% da altura do container */
+    width: auto;                /* mantém a proporção */
+}
+
 .orgmb {
     position: relative;
     display: flex;
