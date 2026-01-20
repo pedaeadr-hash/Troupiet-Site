@@ -1,7 +1,7 @@
 .mkt-conteiner {
     overflow: hidden;
     width: 100%;
-    height: 45vw;
+    height: 85vh;
     display: flex;
     position: relative;
     align-items: center;
@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 10vw;
+    height: 10vh;
     background-color: black;
     position: absolute;
     display: flex;
@@ -131,7 +131,7 @@
 
 @media screen and  (max-width:1000px){
     .mkt-conteiner {
-        height: 65vw;
+        height: 75vh;
         gap: 1vw;    
     }
     .btnmk-esqmb {
@@ -158,9 +158,9 @@
 
 
 
-@media screen and  (max-height:1000px){
+@media screen and  (max-height:800px){
     .mkt-conteiner {
-        height: 65vw;
+        height: 75vh;
         gap: 1vw;    
     }
     .btnmk-esqmb {
@@ -182,7 +182,7 @@
 }
 @media screen and  (max-height:901px){
     .btnmk {
-        height: 13vw;
+        height: 13vh;
     }
     .esq {
         width: 4vw;
@@ -194,12 +194,12 @@
 }
 @media screen and (max-width:436px) {
     .mkt-conteiner{
-        height: 135vw;
+        height: 75vh;
     }
 }
 @media screen and (max-width:320px) {
     .mkt-conteiner{
-        height: 125vw;
+        height: 75vh;
     }
 }
 
