@@ -129,7 +129,28 @@
 
 
 
+@media screen and  (max-width:1000px){
+    .mkt-conteiner {
+        height: 65vw;
+        gap: 1vw;    
+    }
+    .btnmk-esqmb {
+        display: flex;
+    }
+    .btnmk-dirmb {
+        display: flex;
+    }
+    
 
+    .esq {
+        display: none;
+    }
+    .dir {
+        display: none;
+    }
+    
+    
+}
 
 
 
