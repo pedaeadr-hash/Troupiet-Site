@@ -176,6 +176,7 @@ function volmb () {
 
 let indexmb=0;
 const carruselmb =document.querySelector('.carroselmb');
+const boxes = document.querySelectorAll('.ftmb')
 
 
 
