@@ -1,0 +1,44 @@
+.carr {z-index: 10001;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    position: fixed;
+    width: 60%;
+    height: 90%;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    background-color: black;
+    
+}
+.sair {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    height: 5vh;
+    background: #000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(133, 133, 133, 0.9) 50%, rgba(0, 0, 0, 1) 100%);
+}
+.sair svg {
+    width: 5%;
+    height: 100%;
+    cursor: pointer;
+}
+.produtoinfo {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(128, 128, 128);
+}

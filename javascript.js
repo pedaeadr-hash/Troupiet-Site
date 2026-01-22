@@ -197,6 +197,20 @@ function volmb1 () {
 
 
 
+const carrinhozinho=document.querySelector('.carr')
+
+function abrircarrinho () {
+  carrinhozinho.style.display="flex";
+  document.body.style.overflow = 'hidden'
+  document.querySelector('.over').classList.add('overy');
+}
+
+function fecharcarrinho () {
+  carrinhozinho.style.display="none";
+  document.body.style.overflow='auto';
+  document.querySelector('.over').classList.remove('overy');
+}
+
 
 
 
